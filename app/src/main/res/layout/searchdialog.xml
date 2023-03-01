@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_gravity="center" android:orientation="vertical"
+    android:layout_marginEnd="50dp"
+    android:layout_marginStart="50dp">
+
+
+    <EditText
+
+        android:id="@+id/textsearch"
+
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+
+        android:inputType="textCapCharacters"
+
+        android:imeOptions="actionDone" />
+
+</LinearLayout>

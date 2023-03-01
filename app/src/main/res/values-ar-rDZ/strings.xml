@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ba7thVer0.0.1</string>
+    <string name="zipcode">الرمز البريدي</string>
+    <string name="writing">بحث/طباعة</string>
+    <string name="workingonservices">العمل عليهم</string>
+    <string name="username">البريد الإلكتروني</string>
+    <string name="typeuser">أنت تسجل ك</string>
+    <string name="type">نوع الطلب</string>
+    <string name="titleprice">التسعيرة الممكنة</string>
+    <string name="title">موضوع طلبك</string>
+    <string name="timetorespond">وقت الرد على الطلب</string>
+    <string name="submit">إرسال</string>
+    <string name="signup">تسجيل</string>
+    <string name="signout">خروج</string>
+    <string name="settings">إعدادات</string>
+    <string name="setprice">حدد سعر للطلب</string>
+    <string name="servicerequester">زبون</string>
+    <string name="serviceprovider">مقدم خدمة</string>
+    <string name="seeprofil">الحساب الشخصي</string>
+    <string name="save">حفظ</string>
+    <string name="rgstr">سجل</string>
+    <string name="registr">ليس لديك حساب يمكنك التسجيل من هنا</string>
+    <string name="refusedservices">المرفوضة</string>
+    <string name="refus">رفض</string>
+    <string name="province">الولاية</string>
+    <string name="printing">طباعة</string>
+    <string name="pricing">التسعير</string>
+    <string name="personalinfo">معلومات شخصية</string>
+    <string name="pendingservices">قيد الانتظار</string>
+    <string name="pay">ادفع</string>
+    <string name="password">كلمة السر</string>
+    <string name="papersize">نوع ورقة الطباعة</string>
+    <string name="pages">كم من صفحة تريد</string>
+    <string name="orders">طلباتي</string>
+    <string name="onwaitservice">في انتظار الدفع</string>
+    <string name="none">لا شيء</string>
+    <string name="name">اسم المستخدم</string>
+    <string name="login">الدخول</string>
+    <string name="logfosrvcpd">الدخول</string>
+    <string name="locationsetting">المكان</string>
+    <string name="location">ادخل مكان تواجدك</string>
+    <string name="lastname">الإسم الأخير</string>
+    <string name="howmanydays">متى تحتاج طلبك</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="freelance">مستقل</string>
+    <string name="forget">نسيت كلمة المرور</string>
+    <string name="firstname">الإسم الأول</string>
+    <string name="finishedservices">منتهية</string>
+    <string name="finish">انهاء</string>
+    <string name="entrname">ادخل اسم المستخدم</string>
+    <string name="enterlastname">ادخل الإسم الأخير</string>
+    <string name="enterfistname">ادخل الإسم الأول</string>
+    <string name="endreqst">تم ارسال طلبك يمكنك انتظار اجابته عن طريق البريد الإلكتروني أو عن طريق الهاتف</string>
+    <string name="edit">تعديل</string>
+    <string name="detail">معلومات اضافية</string>
+    <string name="country">البلد</string>
+    <string name="contactphone">رقم هاتف للتواصل</string>
+    <string name="contactemail">"بريد إلكتروني للتواصل "</string>
+    <string name="confirmpass">تأكيد الرقم السري</string>
+    <string name="colored">ملون</string>
+    <string name="city">المدينة</string>
+    <string name="choseyouradmin">اختر مقدم الخدمة</string>
+    <string name="choose">اختر</string>
+    <string name="canceledservices">ملغاة</string>
+    <string name="buisness">صاحب العمل</string>
+    <string name="btn">اطلب خدمة</string>
+    <string name="birthday">تاريخ الميلاد</string>
+    <string name="atachment">ملفات</string>
+    <string name="assignments">الطلبات الواردة</string>
+    <string name="address">عنوان الشارع</string>
+    <string name="accept">اقبل</string>
+    <string name="creditcardnumber">رقم البطاقة البنكية</string>
+    <string name="cvvcode">CVV</string>
+    <string name="da">دج</string>
+    <string name="locatio_nearest">أقرب مكان</string>
+    <string name="orderby">الترتيب</string>
+    <string name="expirydate">تاريخ انتهاء الصلاحية</string>
+    <string name="change">تغيير</string>
+    <string name="changepassword">تغيير الرقم السري</string>
+    <string name="invalidusername">اسم مستخدم غير صحيح</string>
+    <string name="passwordemty">من فضلك ادخل رقم سري</string>
+    <string name="passwordnotchanged">لم يتغير الرقم السري</string>
+    <string name="requiredemty">الحقول المطلوبة فارغة</string>
+    <string name="rightoldpass">يمكنك الآن تغيير رقمك السري</string>
+    <string name="verify">تأكد</string>
+    <string name="wrongpassword">ادخل رقمك السري الحالي</string>
+    <string name="newpassword">الرقم السري الجديد</string>
+    <string name="oldpassword">الرقم السري الحالي</string>
+    <string name="invalidcardnumber">رقم البطاقة البنكية غير صحيح</string>
+    <string name="nbrpages">عدد الصفحات:</string>
+    <string name="seefuuldetail">التفاصيل</string>
+    <string name="setsrname">طالب الخدمة:</string>
+    <string name="settype">نوع الخدمة:</string>
+    <string name="pending">طلبات قيد الإنتظار</string>
+    <string name="remaining">الوقت المتبقي:</string>
+    <string-array name="yesno">
+        <item>نعم</item>
+        <item>لا</item>
+    </string-array>
+    <string-array name="settings_language">
+        <item>الإنجليزية</item>
+        <item>العربية</item>
+    </string-array>
+    <string-array name="client_settings">
+        <item>معلومات شخصية</item>
+        <item> معلومات الدفع النقدي</item>
+        <item> تغيير المكان</item>
+        <item>تغيير كلمة السر</item>
+        <item>تغيير اللغة</item>
+        <item>من نحن</item>
+    </string-array>
+    <string-array name="admin_settings">
+        <item>معلومات شخصية</item>
+        <item>معلومات الدفع النقدي</item>
+        <item> تغيير المكان</item>
+        <item>تغيير كلمة السر</item>
+        <item>تغيير اللغة</item>
+        <item>من نحن</item>
+    </string-array>
+    <string-array name="client_orders">
+        <item>طلبات قيد الإنتظار</item>
+        <item>طلبات في انتظار عملية الدفع</item>
+        <item>طلبات قيد العمل</item>
+        <item>طلبات مرفوضة</item>
+        <item>طلبات منتهية</item>
+        <item>طلبات مقدمة</item>
+        <item>طلبات ملغية</item>
+    </string-array>
+    <string-array name="admin_orders">
+        <item>طلبات قيد الإنتظار</item>
+        <item>طلبات في انتظار عملية الدفع</item>
+        <item>طلبات قيد العمل</item>
+        <item>طلبات مرفوضة</item>
+        <item>طلبات منتهية</item>
+        <item>طلبات مقدمة</item>
+    </string-array>
+    <string-array name="orders">
+        <item>عدد الطلبات الكاملة</item>
+        <item>التقييم</item>
+    </string-array>
+
+    <string name="publishtime">وقت النشر</string>
+    <string name="noorders">لا يوجد طلبات</string>
+    <string name="passchanged">كلمة السر تغيرت بنجاح</string>
+    <string name="changelanguage">تغيير اللغة</string>
+    <string name="deadline">الموعد النهائي:</string>
+    <string name="provider">مزود الخدمة:</string>
+    <string name="chngsrvcprvd">تغيير مقدم الخدمة</string>
+    <string name="colorofpaper">الألوان مستعملة:</string>
+    <string name="details">تفاصيل:</string>
+    <string name="noadditionals">لا معلومات اضافية</string>
+    <string name="order_info">تغيير معلومات الطلب</string>
+    <string name="sizeofpaper">حجم الصفحات:</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="cancelorder">ألغي الطلب</string>
+    <string name="contactprovider">تواصل مع مقدم الخدمة</string>
+    <string name="contactus">تواصل معنا</string>
+    <string name="reorder">أعد الطلب</string>
+    <string name="seeprove">الدليل</string>
+    <string name="sendfiles">أرسل ملفات</string>
+    <string name="calldenied">غير مسموح</string>
+    <string name="confirmation">التأكيد</string>
+    <string name="failed">فشل العملية</string>
+    <string name="proceed">هل تريد أن تكمل</string>
+    <string name="sucseed">نجاح العملية</string>
+    <string name="addimages">أضف صور</string>
+    <string name="confirmdeliver">تأكيد الإستلام</string>
+    <string name="contactrequester">تواصل مع طالب الخدمة</string>
+    <string name="deliver">تسليم</string>
+    <string name="filestowork">هذه الملفات التي يجب بدأ العمل عليها:</string>
+    <string name="submit_work">انهاء العمل</string>
+    <string name="textconfirmdeliver">"مقدم الخدمة قد أنهى العمل على طلبك يمكنك الآن الذهاب لاستلامه وبعدها قم بتأكيد الطلب "</string>
+    <string name="finishwork">هل أنهيت العمل على الطلب؟ يمكنك الآن إرسال دليل على اكمالك العمل حتى يتسنى لك التأكيد على انهاء العمل.</string>
+    <string name="amount">المبلغ:</string>
+    <string name="amountaftertax">المبلغ بعد الضريبة(6%)</string>
+    <string name="cantaddfiles">الملفات يجب أن تكون أقل من 100 مب</string>
+    <string name="confirm">تأكيد</string>
+    <string name="fileexiste">الملف موجود</string>
+    <string name="firstfileuploaded">تم رفع الملفات</string>
+    <string name="instructpay">الآن يمكنك ارسال ملفاتك ولكن قبل ذلك عليك بالدفع مسبقا</string>
+    <string name="offered">المبلغ المعروض</string>
+    <string name="pleaseaddfilesfirst">لا يوجد ملفات للإرسال</string>
+    <string name="selectedmore">الملفات المحددة قد فاقت 100 مب</string>
+    <string name="afterfinishintruction">بعد الإنتهاء من العمل يمكنك تثبيت عملك لنعلم العميل بذلك</string>
+    <string name="bio">نبذة</string>
+    <string name="born">ولد</string>
+    <string name="cancel">ألغي</string>
+    <string name="couldntchangeprofilpicture">لم نستطع تغيير الصورة</string>
+    <string name="couldntdownload">لم نستطع تحمييل الملفات</string>
+    <string name="currentbalance">الرصيد الحالي</string>
+    <string name="delete">حذف</string>
+    <string name="delivered">تم التسليم</string>
+    <string name="filter">فلترة</string>
+    <string name="filterby">"فلترة "</string>
+    <string name="from">من</string>
+    <string name="latesttransactions">أحدث المعاملات</string>
+    <string name="latesttransfert">آخر تحويل</string>
+    <string name="moneybackinstruct">اذا كنت لا تريد اكمال الطلب فيمكنك الغاءه و إن عرض عليك مقدم الخدمة عرض لإرجاع مالك فسنحولك لصفحة أخرى لكي يتسنى لك طلب إرجاع مالك</string>
+    <string name="newnew">جديد</string>
+    <string name="ok">حسنا</string>
+    <string name="pleasesetreason">من فضلك حدد سببا لطلبك</string>
+    <string name="reasonforarefund">هل يمكن أن تشرح سبب طلبك إرجاع مالك</string>
+    <string name="recentreviews">التقييمات الحديثة</string>
+    <string name="refundamount">مقدار المال المرجع</string>
+    <string name="refundcondition">شرووط ارجاع المال</string>
+    <string name="refunddemanded">لقد طلبت ارجاع مالك مسبقا</string>
+    <string name="refundempty">ادخل نسبة ارجاع المال</string>
+    <string name="refundoffered">عرض ارجاع المال</string>
+    <string name="refundrequested">تم طلب ارجاع المال</string>
+    <string name="reqstmoneytitle">اطلب مالك</string>
+    <string name="requestchanges">اطلب تغييرات</string>
+    <string name="requestrefund">اطلب ارجاع المال</string>
+    <string name="search">بحث بالإسم</string>
+    <string name="sortby">رتب عن طريق</string>
+    <string name="startdownloading">تحميل...</string>
+    <string name="totalrating">تقييم الكامل</string>
+    <string name="transactionhistory">تاريخ التحويلات</string>
+    <string name="wallet">الحافظة</string>
+    <string name="writeareview">اكتب تقييم</string>
+    <string name="yousubmitedthework">لقد قمت بتثبيت انهاء عملك يمكنك الآن انتظار العميل ليأخذ طلبه</string>
+</resources>

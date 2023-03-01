@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prp"
+    tools:context=".SPLocationRegisterActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/logoimage"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mbh" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/bootstrap_gray_lighter"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_country"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:ccpDialog_keyboardAutoPopup="false"
+                    app:ccpDialog_showCloseIcon="true"
+                    app:ccpDialog_showFlag="true"
+                    app:ccpDialog_showPhoneCode="false"
+                    app:ccp_autoDetectCountry="true"
+                    app:ccp_countryPreference="US,FR,DZ"
+                    app:ccp_defaultNameCode="DZ"
+                    app:ccp_showFullName="true"
+                    app:ccp_showNameCode="false"
+                    app:ccp_showPhoneCode="false"
+                    app:ccp_textSize="@dimen/bootstrap_h4_text_size" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/province_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/province"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/province"
+                    android:inputType="textCapWords"
+                    android:maxLength="30"
+                    android:singleLine="true"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/city_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="0.75">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/city"
+                        android:inputType="textCapWords"
+                        android:maxLength="30"
+                        android:singleLine="true"
+                        android:textSize="@dimen/bootstrap_h5_text_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/zip_code_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="0.75">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/zipcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/zipcode"
+                        android:inputType="numberDecimal"
+                        android:maxLength="5"
+                        android:singleLine="true"
+                        android:textSize="@dimen/bootstrap_h5_text_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/street_address_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/address"
+                    android:inputType="textMultiLine"
+                    android:textSize="@dimen/bootstrap_h4_text_size" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <com.hbb20.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:ccpDialog_keyboardAutoPopup="false"
+                    app:ccp_autoDetectCountry="true"
+                    app:ccp_defaultNameCode="DZ"
+                    app:ccp_showNameCode="false"
+                    app:ccp_textSize="@dimen/bootstrap_h5_text_size" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phone_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/entrphon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/fui_phone_hint"
+                        android:inputType="phone"
+                        android:maxLength="20"
+                        android:singleLine="true"
+                        android:textSize="@dimen/bootstrap_h5_text_size" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/laySecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layFirst">
+
+                <Button
+                    android:id="@+id/rgstr"
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp"
+                    android:layout_margin="30dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="@string/submit"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/bootstrap_h4_text_size" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progress_circular1"
+            android:layout_width="89dp"
+            android:layout_height="89dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

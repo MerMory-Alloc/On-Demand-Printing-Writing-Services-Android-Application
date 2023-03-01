@@ -1,0 +1,305 @@
+<resources>
+    <string name="app_name">Ba7thVer0.0.1</string>
+    <string name="btn">Request a service</string>
+    <string name="type">Type of your request</string>
+    <string name="title">The subject of your request</string>
+    <string name="howmanydays">When you will need your request</string>
+    <string name="pages">how many pages do you need</string>
+    <string name="detail">Additional informations</string>
+    <string name="atachment">attachment</string>
+    <string name="titleprice">Estimated price:</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="assignments">Incoming orders</string>
+    <string name="signout">Sign out</string>
+    <string name="logfosrvcpd">login</string>
+    <string-array name="yesno">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+    <string-array name="date">
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>6 hours</item>
+        <item>8 hours</item>
+        <item>10 hours</item>
+        <item>12 hours</item>
+        <item>14 hours</item>
+        <item>16 hours</item>
+        <item>18 hours</item>
+        <item>20 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>1 month</item>
+        <item>No limit</item>
+    </string-array>
+    <string-array name="papersize">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+        <item>A5</item>
+        <item>A6</item>
+        <item>A7</item>
+        <item>A8</item>
+        <item>A9</item>
+        <item>A10</item>
+        <item>SRA</item>
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+        <item>C4</item>
+        <item>C5</item>
+        <item>C6</item>
+        <item>C7</item>
+        <item>C8</item>
+        <item>C9</item>
+        <item>C10</item>
+    </string-array>
+    <string name="home">Home</string>
+    <string name="endreqst">You request has  been sent to the service provider . you can wait for his a respond from an email or phone call a soon as posible</string>
+    <string name="registr">If you are not registerd you can sign up her</string>
+    <string name="entrname">Enter Your Username</string>
+    <string name="confirmpass">Confirm password</string>
+    <string name="location">Enter your Location</string>
+    <string name="rgstr">Register</string>
+    <string name="refus">Refuse</string>
+    <string name="accept">Accept</string>
+    <string name="choseyouradmin">Choose your Service Provider</string>
+    <string name="writing">Writing/Printing</string>
+    <string name="printing">Printing</string>
+    <string name="name">Username:</string>
+    <string name="locationsetting">Location</string>
+    <string name="edit">Edit</string>
+    <string name="pricing">Pricing</string>
+    <string name="workingonservices">Working on orders</string>
+    <string name="finishedservices">Finished orders</string>
+    <string name="refusedservices">Refused orders</string>
+    <string name="none">None</string>
+    <string name="finish">Finish</string>
+    <string name="typeuser">You are signing up as :</string>
+    <string name="servicerequester">Service requester</string>
+    <string name="serviceprovider">Service provider</string>
+    <string name="orders">My orders</string>
+    <string name="canceledservices">Canceled</string>
+    <string name="onwaitservice">On Wait for payment orders</string>
+    <string name="pay">Pay</string>
+    <string name="setprice">SET A PRICE</string>
+    <string name="da">DA</string>
+    <string name="creditcardnumber">Card Number: </string>
+    <string name="expirydate">Expairy date: </string>
+    <string name="cvvcode">CVV: </string>
+    <string name="freelance">Freelancer</string>
+    <string name="buisness">Business Owner</string>
+    <string name="enterfistname">Enter Your First Name</string>
+    <string name="enterlastname">Enter Your Last Name</string>
+    <string name="zipcode">ZIP Code</string>
+    <string name="address">Street Address</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="country">Country</string>
+    <string name="forget">forget password?</string>
+    <string name="colored">Colored</string>
+    <string name="papersize">The desired paper size</string>
+    <string name="timetorespond">How much time you will give to your SP to respond</string>
+    <string name="seeprofil">See profile</string>
+    <string name="choose">Pick</string>
+    <string name="locatio_nearest">Nearest location</string>
+    <string name="orderby">Order by</string>
+    <string name="settings">Settings</string>
+    <string name="firstname">First name:</string>
+    <string name="lastname">Last name:</string>
+    <string name="contactemail">Contact email:</string>
+    <string name="contactphone">Contact phone:</string>
+    <string name="birthday">Birth day:</string>
+    <string name="personalinfo">Personal info</string>
+    <string name="newpassword">New password</string>
+    <string name="oldpassword">Old password</string>
+    <string name="change">Change</string>
+    <string name="changepassword">Change Password</string>
+    <string name="passwordnotchanged">Password not changed</string>
+    <string name="wrongpassword">Entred wrong old password</string>
+    <string name="verify">Verify</string>
+    <string name="rightoldpass">You can proceed to change your password</string>
+    <string name="passwordemty">Please enter a password!</string>
+    <string name="requiredemty">required fields are empty</string>
+    <string name="invalidusername">Invalid username</string>
+    <string name="invalidcardnumber">Invalid credit card number !</string>
+    <string name="pending">Pending orders</string>
+    <string name="nbrpages">Number of pages:</string>
+    <string name="settype">Request Type:</string>
+    <string name="setsrname">The Requester:</string>
+    <string name="seefuuldetail">see full details</string>
+    <string name="remaining">Remaining time:</string>
+    <string name="publishtime">Publish time</string>
+    <string name="noorders">No Orders</string>
+    <string name="passchanged">password changed !</string>
+    <string name="changelanguage">Change Language</string>
+    <string-array name="orders">
+        <item>Number of services done</item>
+        <item>Rating</item>
+    </string-array>
+    <string-array name="settings_language">
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+    <string-array name="client_settings">
+        <item>Personal info</item>
+        <item>Payment info</item>
+        <item>Change location</item>
+        <item>Change password</item>
+        <item>Change language</item>
+        <item>About us</item>
+    </string-array>
+    <string-array name="admin_settings">
+        <item>Personal info</item>
+        <item>Payment info</item>
+        <item>Change location</item>
+        <item>Change password</item>
+        <item>Change language</item>
+        <item>About us</item>
+    </string-array>
+    <string-array name="client_orders">
+        <item>Pending orders</item>
+        <item>Orders on wait for payment</item>
+        <item>Orders on work</item>
+        <item>Refused Orders</item>
+        <item>Finished orders</item>
+        <item>Delivered orders</item>
+        <item>Canceled orders</item>
+    </string-array>
+    <string-array name="admin_orders">
+        <item>Pending orders</item>
+        <item>Orders on wait for payment</item>
+        <item>Orders on work</item>
+        <item>Refused Orders</item>
+        <item>Finished orders</item>
+        <item>delivered orders</item>
+    </string-array>
+    <string name="pendingservices">Pending Services</string>
+    <string name="deadline">Deadline:</string>
+    <string name="provider">The Provider:</string>
+    <string name="sizeofpaper">Size of Papers:</string>
+    <string name="colorofpaper">Colors Used:</string>
+    <string name="noadditionals">No Aditional information</string>
+    <string name="details">Details:</string>
+    <string name="chngsrvcprvd">Change the provider</string>
+    <string name="order_info">Change the order information</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="cancelorder">Cancel order</string>
+    <string name="sendfiles">Send Files</string>
+    <string name="contactus">Contact us</string>
+    <string name="contactprovider">Contact the provider</string>
+    <string name="seeprove">See the prove</string>
+    <string name="reorder">ReOrder</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="proceed">Do you want to proceed?</string>
+    <string name="sucseed">succeeded!</string>
+    <string name="failed">Failed!</string>
+    <string name="calldenied">Permission Call Phone denied</string>
+    <string name="contactrequester">Contact the Requester</string>
+    <string name="submit_work">Submit the work</string>
+    <string name="addimages">Add Images</string>
+    <string name="deliver">Deliver</string>
+    <string name="confirmdeliver">Confirm delivering</string>
+    <string name="textconfirmdeliver">The provider has finished the work on your order. You are now able to go and grab your documents.after that you need to confirm the delivering.</string>
+    <string name="finishwork">You finished the work on the request? please consider to send a prove to the requester that you finished the work so you will be able to submit it.</string>
+    <string name="filestowork">Thees are the files that you need to work on:</string>
+    <string name="confirm">Confirm</string>
+    <string name="offered">Price offered</string>
+    <string name="instructpay">Now you can send your files and pay for the service on advance or you can cancel the order.</string>
+    <string name="amount">Amount:</string>
+    <string name="amountaftertax">After tax:(06%):</string>
+    <string name="cantaddfiles">files size needs to be less than 100MB</string>
+    <string name="fileexiste">the file allredy exist</string>
+    <string name="selectedmore">selected files are more then 100MB</string>
+    <string name="pleaseaddfilesfirst">There is no files to send!</string>
+    <string name="firstfileuploaded">the files have been uploaded</string>
+    <string name="couldntdownload">We couldn\'t download the files</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+    <string name="startdownloading">downloading..</string>
+    <string name="wallet">My Wallet</string>
+    <string name="couldntchangeprofilpicture">Couldn\'t change the photo!</string>
+    <string name="totalrating">Total Rating</string>
+    <string name="recentreviews">Recent Reviews</string>
+    <string name="bio">Bio</string>
+    <string name="born">Born</string>
+    <string name="from">From</string>
+    <string name="afterfinishintruction">After you finish the work you can submit the work and inform your client</string>
+    <string name="filter">Filter</string>
+    <string name="delivered">Delivered</string>
+    <string name="sortby">Sort by</string>
+    <string name="search">Search by name</string>
+    <string name="filterby">Filter by</string>
+    <string-array name="servicesorders">
+        <item>most recent</item>
+        <item>oldest</item>
+        <item>most pages</item>
+        <item>less pages</item>
+    </string-array>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="latesttransactions">Latest transactions:</string>
+    <string name="currentbalance">Current Balance:</string>
+    <string name="reqstmoneytitle">Request Your Money</string>
+    <string name="transactionhistory">Transactions history</string>
+    <string name="newnew">New</string>
+    <string name="refundempty">Please assign a refund percentage</string>
+    <string name="refundoffered">Refund offered</string>
+    <string name="refundcondition">Refund Conditions</string>
+    <string name="moneybackinstruct">if you no longer want your order to be done, you can cancel it. if your service provider offered you a refund you will be assigned to another screen so you will be able to request a refund</string>
+    <string name="requestrefund">Request Refund</string>
+    <string name="refundamount">Refund Amount</string>
+    <string name="reasonforarefund">Can you explain why are you requesting a refund?</string>
+    <string name="pleasesetreason">Please set a reason before you request</string>
+    <string name="refunddemanded">you allready demanded a refund !</string>
+    <string name="refundrequested">Refund Requested</string>
+    <string name="yousubmitedthework">You have submited the work,please wait for the requester to come and take his order,make sure that he confirms the delivering before handing him his papers.</string>
+    <string name="requestchanges">Request changes</string>
+    <string name="writeareview">Write a review</string>
+    <string name="latesttransfert">Latest transfert:</string>
+    <string name="thisempty">This field is required</string>
+    <string name="pleasenteremail">Please Enter a valid email</string>
+    <string name="emailnotmatch">Email does not match!</string>
+    <string name="passwordmorethaneight">the password must be at least 8 characters</string>
+    <string name="passwordneedsonenumberandcaracter">the password must contain at least one number and one special character</string>
+    <string name="passdeosnotmatch">Password does not match!</string>
+    <string name="emailnotvalid">the Email is not valid</string>
+    <string name="confemailnotmatch">the confirmation Email does not match</string>
+    <string name="passnotvalid">the Password is not valid</string>
+    <string name="confpassnotmatch">the confirmation password does not match</string>
+    <string name="continuregstr">Continue Registration</string>
+    <string name="usernamemustbemore">Username must be more then 4 characters</string>
+    <string name="usernamedontstartwithnumber">Username does not contain any special characters and does not start with a number or character</string>
+    <string name="refundrequestreason">Refund request reason:</string>
+    <string name="refundrequest">Refund request</string>
+    <string name="makesur">Please make sur to enter the same credit card that you used in paying for this service</string>
+    <string name="refund">Refund</string>
+    <string name="price">The price</string>
+    <string-array name="searchoptions">
+        <item>By Name</item>
+        <item>By Subject</item>
+    </string-array>
+    <string-array name="filteroption">
+        <item>Freelancers</item>
+        <item>Business owners</item>
+    </string-array>
+</resources>

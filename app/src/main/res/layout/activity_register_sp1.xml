@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prp"
+    android:orientation="vertical"
+    tools:context=".RegisterSP1Activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    <LinearLayout
+        android:id="@+id/layFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        >
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mbh" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/continuregstr"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@color/bootstrap_gray_lighter"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/typeuser"
+        android:textSize="@dimen/bootstrap_h5_text_size" />
+
+    <RadioGroup
+        android:id="@+id/typesp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@id/freelance"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/freelance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:checked="true"
+            android:text="@string/freelance"
+            android:textSize="@dimen/bootstrap_h5_text_size" />
+
+        <RadioButton
+            android:id="@+id/buisness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/buisness"
+            android:textSize="@dimen/bootstrap_h5_text_size" />
+    </RadioGroup>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="30"
+            android:inputType="textCapCharacters"
+            android:id="@+id/username"
+            android:hint="@string/entrname"
+            android:singleLine="true"
+            android:textSize="@dimen/bootstrap_h5_text_size"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fistname_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:inputType="text"
+                android:id="@+id/firstname"
+                android:hint="@string/enterfistname"
+                android:singleLine="true"
+                android:textSize="@dimen/bootstrap_h5_text_size"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/lastname_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="40"
+                android:inputType="text"
+                android:id="@+id/lastname"
+                android:hint="@string/enterlastname"
+                android:singleLine="true"
+                android:textSize="@dimen/bootstrap_h5_text_size"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/bootstrap_h5_text_size"
+                android:text="Birth Day:"/>
+
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:maxDate="31/12/2002"
+                android:minDate="01/01/1920"
+                android:startYear="1997" />
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/rgstr"
+            android:layout_width="77dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/next" />
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

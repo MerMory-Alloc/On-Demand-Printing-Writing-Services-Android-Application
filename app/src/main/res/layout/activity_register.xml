@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prp"
+    tools:context=".RegisterActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:id="@+id/layFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logoimage"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:src="@drawable/mbh" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signup"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="@color/colorPrimary"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/entrmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="70"
+                    android:hint="@string/username"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/confirm_email_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/confirmemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="70"
+                    android:hint="@string/fui_email_link_confirm_email_header"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/entrpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="70"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/confirm_password_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/confrmpass"
+                    android:layout_width="match_parent"
+                    android:maxLength="70"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/confirmpass"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@color/bootstrap_gray_lighter"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/typeuser"
+                android:textSize="@dimen/bootstrap_h5_text_size" />
+
+            <RadioGroup
+                android:id="@+id/typeuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@id/srvcpro"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/srvcpro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:checked="true"
+                    android:text="@string/serviceprovider"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+
+                <RadioButton
+                    android:id="@+id/srvcreq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/servicerequester"
+                    android:textSize="@dimen/bootstrap_h5_text_size" />
+            </RadioGroup>
+    </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/laySecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layFirst">
+
+                <Button
+                    android:id="@+id/rgstr"
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp"
+                    android:layout_margin="30dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="@string/rgstr"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/bootstrap_h4_text_size" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/progress_circular1"
+            android:layout_width="89dp"
+            android:layout_height="89dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

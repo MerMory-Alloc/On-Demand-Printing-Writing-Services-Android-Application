@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mbh.prjt.ba7thver001">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="locale|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".RefundAcceptedActivity"/>
+        <activity android:name=".RefundDemandedAvtivity" />
+        <activity android:name=".ClientDeliveredActivity" />
+        <activity android:name=".ShowThePicture" />
+        <activity android:name=".RateActivity" />
+        <activity android:name=".SeeProveActivity" />
+        <activity android:name=".RequestRefundActivity" />
+        <activity android:name=".WalletActivity" />
+        <activity android:name=".Main3Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.Main3Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubmitWorkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SubmitWorkActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SendFileActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SendFileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetPriceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SetPriceActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeliveredActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.deliveredActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FinishedActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.FinishedActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RefusedActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.RefusedActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WorkinOnActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.WorkinOnActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OnWaitForPaimentOrderActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.OnWaitForPaimentOrderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PndingOrdersActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.PndingOrdersActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cooltechworks.creditcarddesign.CardEditActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ClientCanceledActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientCanceledActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientFinishedActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientFinishedActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientRefusedActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientRefusedActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientWorkinOnActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientWorkinOnActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientOnWaitForPaimentOrderActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientOnWaitForPaimentOrderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientPndingOrdersActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientPndingOrdersActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChangeLocationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ChangeLocationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.AboutUsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SRLocationRegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SRLocationRegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterSRActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.RegisterSRActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SPLocationRegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SPLocationRegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterSP1Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.RegisterSP1Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PaymentHistoryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CardDetaileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PaymentPolicyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CardsListActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChangeLanguageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ForAdminsInfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChangePasswordActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientLoginInfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientPersonalInfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientPersonalInfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientServiceDetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientServiceDetailActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListOfOrdersActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ListOfOrdersActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PaimentsInfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.PaimentsInfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClientSettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ClientSettingsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AdminListActivity"
+            android:label="@string/choseyouradmin">
+            <intent-filter>
+                <action android:name="android.intent.action.AdminListActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".requestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.requestActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RequestFinishActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.RequestFinishActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.RegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfilSettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ProfilSettingsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PersonalInfoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.PersonalInfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".listOfRequestsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.listOfRequestsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ServiceDetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ServiceDetailActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

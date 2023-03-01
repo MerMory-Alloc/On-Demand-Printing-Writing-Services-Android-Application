@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/bootstrap_gray_lighter">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profile"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titlenot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/timenot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/newnew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newnew"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+</LinearLayout>
