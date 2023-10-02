@@ -8,11 +8,11 @@ The primary objective of our project is to create a digital marketplace that fac
 
 
 ## Project Description
-Its all in the project report you can see it [here](main.pdf) in the repository. 
+Its all in the project report you can see it [here](main.pdf) in the repository or [here](https://drive.google.com/file/d/19C0THtIbtKAc8hd_T3ha0wn3DykK3ny7/view?usp=sharing) in the gdrive. 
 
 ## Contributing
 
-If you'd like to contribute to this project,(:) i know its stupid idea to contrubute to but consider it as good app to practice on and improve you skills by trying to improving the app ofc) please follow these guidelines:
+If you'd like to contribute to this project,(:) i know its stupid idea to contrubute to but consider it as good app to practice on and improve you skills by trying improving the app ofc) please follow these guidelines:
 
 1. Fork the repository.
 
